@@ -1,0 +1,91 @@
+/* App.css */
+
+
+.library {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  font-family: Arial, sans-serif;
+}
+
+
+.library h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+
+.book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.book-form input {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+
+.book-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.book-form button:hover {
+  background-color: #0056b3;
+}
+
+
+.book-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.book-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+
+.book-list button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.book-list button:hover {
+  background-color: #c82333;
+}
+
